@@ -1,0 +1,32 @@
+.main {
+    padding: 50px 0;
+    position: absolute;
+    width: 100%;
+    background-color: #090A0B;
+    right: 0;
+    transition: 0.15s linear all;
+    z-index: 10;
+}
+.container {
+    padding: 0 50px;
+}
+.link {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.link:not(:last-child){
+    margin-bottom: 15px;
+}
+/* .link img {
+    width: 30px;
+} */
+.link span {
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+}
+.hideMenu {
+    right: -100%;
+}

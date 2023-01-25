@@ -1,0 +1,35 @@
+.main {
+    padding: 20px 0 100px;
+    background: #101113;
+    min-height: 100vh;
+    text-align: start;
+}
+.main h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+.sbt h2 {
+    margin-bottom: 25px;
+}
+.sbt p {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+}
+.sbt img {
+    width: 100%;
+}
+.sbt .picture {
+    margin: 20px 0;
+}
+.sbt .picture span {
+    font-size: 7px;
+}
+.sbt .picture strong {
+    color: #5451B0;
+}
