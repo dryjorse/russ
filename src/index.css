@@ -26,6 +26,7 @@ ul {
 }
 
 button {
+  font-family: 'TT Travels';
   background-color: inherit;
   border: none;
   outline: none;
@@ -44,4 +45,14 @@ h2 {
 
 .container {
   padding: 0 20px;
+}
+
+.theory {
+  border-top: 1px solid #43921E;
+  border-bottom: 1px solid #43921E;
+  padding: 10px 0;
+}
+
+.theory strong {
+  color: #43921E !important;
 }

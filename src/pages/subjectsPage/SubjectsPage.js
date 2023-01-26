@@ -7,11 +7,9 @@ import { Link } from "react-router-dom";
 function SubjectsPage() {
     return (
         <div className={s.main}>
-            <div className={s.module}>
-                <h2>II Модуль</h2>
-            </div>
             <div className={s.content} style={{background: `url(${back})`}}>
                 <div className={`container ${s.container}`} >
+                    <h2><span>II</span> Модуль</h2>
                     <ul>
                         {
                             subjects.map((e, key) => <li key={key}><Link to={`/subjects/${e.url}`}>{e.name}</Link></li>)

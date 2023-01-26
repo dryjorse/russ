@@ -27,7 +27,7 @@
     margin-bottom: 15px;
 }
 .home {
-    height: 290px;
+    min-height: 100vh;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
